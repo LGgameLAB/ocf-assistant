@@ -1,4 +1,4 @@
-# OCF Welcome Greeter
+# OCF Welcome Assistant
 
 Greets Lab users when they log onto computers
 

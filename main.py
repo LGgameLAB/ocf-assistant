@@ -1,13 +1,13 @@
 import gi, sys
 gi.require_version("Gtk", "4.0")
 from gi.repository import Gtk
-from greeter import Greeter
+from assistant import Assistant
 
 
 
 def main(app):
-    greeter_window = Greeter(application=app)
-    greeter_window.present()
+    assistant_window = Assistant(application=app)
+    assistant_window.present()
 
 
 if __name__ == "__main__":

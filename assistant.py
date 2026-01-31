@@ -2,7 +2,7 @@ import gi
 gi.require_version("Gtk", "4.0")
 from gi.repository import Gtk, Gio, GdkPixbuf
 
-class Greeter(Gtk.Window):
+class Assistant(Gtk.Window):
     '''
         The greeter/welcome page application
     '''
